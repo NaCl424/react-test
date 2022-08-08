@@ -1,0 +1,102 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# ios
+#
+ios/Podfile.lock
+ios/Operator.xcodeproj/xcuserdata/
+ios/Operator.xcworkspace/
+ios/Operator.xcodeproj/project.xcworkspace/xcuserdata/
+third-party/
+
+# gem file
+#
+ios/Gemfile.lock
+ios/vendor
+ios/.bundle
+
+# Android/IntelliJ
+#
+android/local.properties
+build/
+.idea
+.gradle
+*.iml
+android/.settings
+android/app/.settings
+android/debug/.settings
+android/app/src/main/assets/fonts
+android/app/src/main/assets/drocket_config.json
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+ios/Pods
+package-lock.json
+yarn.lock
+
+# Bundle artifact
+*.jsbundle
+# CocoaPods
+/ios/Pods/
+
+# ignore stock-management module
+/js/pages/stock-management
+android/local.properties
+
+.history
+.vscode
+
+packagehash.txt
+android/.settings
+android/app/.settings
+android/debug/.settings
+
+/multibundler/*
+/js/debug/*
+
+# ignore node script
+scripts/mock-sync.js
+RESOURCE.zip
+response.txt
+ios/assets
+ios/RESOURCE
+
